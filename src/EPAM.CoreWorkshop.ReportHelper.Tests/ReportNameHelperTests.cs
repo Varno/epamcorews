@@ -22,7 +22,7 @@ namespace EPAM.Core.ReportHelper.Tests
         [AssemblyInitialize]
         public static void Init(TestContext context)
         {
-            Thread.Sleep(4 * 1000);
+            Thread.Sleep(10 * 1000);
         }
     }
 }
